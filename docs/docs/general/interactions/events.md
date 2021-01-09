@@ -5,7 +5,7 @@ title: Events
 The following properties define how the chart interacts with events.
 
 | Name | Type | Default | Description
-| ---- | ---- | ------- | -----------
+| ---- | ---- | ------- | -----------fafafa
 | `events` | `string[]` | `['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove']` | The `events` option defines the browser events that the chart should listen to for tooltips and hovering. [more...](#event-option)
 | `onHover` | `function` | `null` | Called when any of the events fire. Passed the event, an array of active elements (bars, points, etc), and the chart.
 | `onClick` | `function` | `null` | Called if the event is of type `'mouseup'` or `'click'`. Passed the event, an array of active elements, and the chart.
